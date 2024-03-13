@@ -25,19 +25,19 @@ public class four implements ActionListener{
 	buttonA.addActionListener((ActionListener) this);
 	buttonA.setText("A");
 	
-	buttonB.setBounds(10,100,100,100);
+	buttonB.setBounds(10,200,100,100);
 	buttonB.setFont(new Font(null,Font.BOLD,35));
 	buttonB.setFocusable(false);
 	buttonB.addActionListener((ActionListener) this);
 	buttonB.setText("B");
 	
-	buttonC.setBounds(10,100,100,100);
+	buttonC.setBounds(10,300,100,100);
 	buttonC.setFont(new Font(null,Font.BOLD,35));
 	buttonC.setFocusable(false);
 	buttonC.addActionListener((ActionListener) this);
 	buttonC.setText("C");
 	
-	buttonD.setBounds(10,100,100,100);
+	buttonD.setBounds(10,400,100,100);
 	buttonD.setFont(new Font(null,Font.BOLD,35));
 	buttonD.setFocusable(false);
 	buttonD.addActionListener((ActionListener) this);
